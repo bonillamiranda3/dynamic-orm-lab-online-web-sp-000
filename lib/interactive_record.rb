@@ -57,5 +57,5 @@ class InteractiveRecord
        DB[:conn].execute(sql)
      end
      find[0]
-   en
+   end
 end
