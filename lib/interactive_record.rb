@@ -52,7 +52,7 @@ class InteractiveRecord
   end
 
     def method_name
-      sql = <<-sql
+      sql = <<-SQL
       SELECT * FROM #{self.table_name}
       WHERE #{attribute.keys.first.to_s} = '#{attribute.values.first.to_S}'
       SQL
